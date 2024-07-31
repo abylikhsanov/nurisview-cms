@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jackets",
+  "info": {
+    "singularName": "jacket",
+    "pluralName": "jackets",
+    "displayName": "jacket"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "videos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
